@@ -9,24 +9,27 @@
 
 <body>
 
-
-<div class="">
+<div class="container">
+<div class="dropdown">
     <nav>
         <ul>
             <li><a class="" href="#">Inici</a></li>
             <li><a class="" href="#">Qui som</a></li>
-            <li><select class="">
-                <option>Senderisme</option>
-                <option>Submarinisme</option>
-                <option>Surf</option>
-                <option>Altres</option>
-            </select></li>
+            <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Ejemplo de Dropdown <span class="caret"></span></button>
+            <ul class="dropdown-menu">
+            <li><a href="#">HTML</a></li>
+            <li><a href="#">CSS</a></li>
+            <li><a href="#">JavaScript</a></li>
+            </ul>
         </ul>
     </nav>
 
 </div>
 
+</div>
 
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 </body>
 </html>
