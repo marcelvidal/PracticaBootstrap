@@ -3,21 +3,31 @@
     padding: 0;
 }
 
-
+/*BARRA DE NAVEGACIO*/
 nav.navbar.navbar-expand-lg.navbar-dark{
     background-color: #2eceae;
     margin-bottom: 20px;
 }
 
+a.nav-link.active:hover{
+background-color: gray;
+}
+
+/*CARRUSEL*/
 img{
     height: 400px;
 }
 
 
-.titol{
+div h2.one-title{
     margin-top: 10px;
-text-align: center;
-color: grey;
+    text-align: center;
+    color: grey;
+}
+
+.titol{
+color: gray;
+margin-left: 10px;
 }
 
 button.carousel-control-next{
@@ -29,41 +39,25 @@ button.carousel-control-next{
 button.carousel-control-prev{
     background-image:linear-gradient(to right,#18bc9c 0%,#DBFBF4 100%);
 }
-.carousel-inner > .item > img,
-.carousel-inner > .item > a > img {
-width: 70%;
-margin: auto;
+
+
+/*TEXT ARTICLES*/
+.text{
+    margin-left: 10px;
 }
 
 
-.navbar-default {
-background-color: #18bc9c;
-}
-.navbar-default .navbar-nav > li > a {
-color: #DBFBF4;
-}
-.navbar-default .navbar-nav > li > a:hover,
-.navbar-default .navbar-nav > li > a:focus {
-color: #fff;
-}
-.navbar-default .navbar-nav > .active > a,
-.navbar-default .navbar-nav > .active > a:hover,
-.navbar-default .navbar-nav > .active > a:focus {
-color: #fff;
-background-color: #0E705C;
-}
-.btn-primary {
-background-color:#18bc9c;
-border-color: #0E705C
-}
-.btn-primary:hover, .btn-primary:active , .btn-primary:focus, .btnprimary:active:focus{
-background-color:#0E705C;
-border-color: #041E18;
-}
+
+
 .panel-footer {
 color: #fff;
 background-color: #18bc9c;
+height: 50px;
+text-align: center;
 } 
-div[class*="row"] > h2, div[class*="col-"] > h3 {
-color:#999999;
+
+
+#text-peu{
+  margin-bottom: 0;
+  padding-top: 10px;
 }
